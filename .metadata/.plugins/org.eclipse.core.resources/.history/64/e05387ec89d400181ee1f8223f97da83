@@ -1,0 +1,17 @@
+package org.keshav.javabrains.service;
+
+public class LoginService {
+	
+	public boolean authenticate(String name, String  password)
+	{
+		if(password == null || password.trim() == "")
+		{
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+
+}
